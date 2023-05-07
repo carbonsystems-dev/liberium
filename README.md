@@ -37,9 +37,3 @@ Liberium.url('param') - the url param used for the Liberium.gopen function, shou
 ### In the works:
 
 Liberium.g404(key) - overlays the google 404 page over your page which can be made invisible by clicking the specified key
-
-## Credits
-3kh0 - 3kh0 assets
-LEGALIZE PIRACY - contributions
-
-when more people need to be credited theyll be listed here
