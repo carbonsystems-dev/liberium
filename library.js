@@ -114,6 +114,24 @@ var Liberium = {
     document.body.appendChild(overlayDiv);
     document.addEventListener("keypress", handleKeyPress);
   },
+  getapi: function(url) {
+    if (!url) return;
+
+    fetch(url)
+      .then(function(response) {
+        if (!response.ok) {
+          throw new Error('API request failed, maybe it isnt working?');
+        }
+
+        return response.json();
+      })
+      .then(function(data) {
+        console.log('API response:', data);
+      })
+      .catch(function(error) {
+        console.error('API request error:', error);
+      });
+  },
 };
 
 window.Liberium = Liberium;
