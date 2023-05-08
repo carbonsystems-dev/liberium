@@ -20,7 +20,7 @@ Liberium.redirect(url) - redirects the user to the specified url
 
 Liberium.tabcloak(title, faviconurl) - sets the title and favicon based on the specified params. Still works if only title or only faviconurl are set, just do (null, faviconurl) or (title, null)
 
-Liberium.gopen(.html, gameid) - redirects to the specified file and adds a url param based on the Liberium.url('') global.
+Liberium.gopen(.html, gameid) - redirects to the specified file and adds a url param based on the Liberium.url('') global. (only use if you know what you're doing)
 
 #### Example: 
 
