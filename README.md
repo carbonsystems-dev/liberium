@@ -1,5 +1,5 @@
 # liberium
-A lightweight, open source, and free to use javascript library made for the unblocking community.
+A lightweight, open source, and free to use javascript and typescript library made for the unblocking community.
 Updates will keep coming, please suggest things to add or open pull requests with new features!
 ## How to use
 Put the Library url in your head tag
