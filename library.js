@@ -1,10 +1,10 @@
 var Liberium = {
   cloak: function(url) {
-    var win = window.open();
-    var f = win.document.createElement("iframe");
-    window.focus();
-
     if (!url) return;
+    
+    const win = window.open();
+    const f = win.document.createElement("iframe");
+    window.focus();
 
     f.style.width = "100%";
     f.style.height = "100%";
