@@ -21,21 +21,21 @@ Now, when the `Liberium.gopen` function is called, the user is redirected to htt
 
 ### Functions
 
-`Liberium.cloak(string)` - opens an about:blank tab using the specified url parameter
+`Liberium.cloak('url)` - opens an about:blank tab using the specified url parameter
 
-`Liberium.blob(string)` - opens a blob: url using the specified url parameter
+`Liberium.blob('url')` - opens a blob: url using the specified url parameter
 
-`Liberium.copen(string)` - opens an about:blank tab with a 3kh0 assets game loaded via the id provided
+`Liberium.copen('id')` - opens an about:blank tab with a 3kh0 assets game loaded via the id provided
 
-`Liberium.redirect(string)` - redirects the user to the specified url
+`Liberium.redirect('url')` - redirects the user to the specified url
 
-`Liberium.tabcloak(title, faviconurl)` - sets the title and favicon based on the specified params. Still works if only title or only faviconurl are set, just do (null, faviconurl) or (title, null)
+`Liberium.tabcloak('title', 'faviconurl')` - sets the title and favicon based on the specified params. Still works if only title or only faviconurl are set, just do (null, faviconurl) or (title, null)
 
-`Liberium.gopen(page, gameid)` - redirects to the specified file and adds a url param based on the Liberium.url('') global. (only use if you know what you're doing)
+`Liberium.gopen('page', 'gameid')` - redirects to the specified file and adds a url param based on the Liberium.url('') global. (only use if you know what you're doing)
 
 ### Globals
 
-`Liberium.url(string)` - the url param used for the Liberium.gopen function, should be set in a <script> in your head tag or anywhere before Liberium.gopen is used.
+`Liberium.url('param')` - the url param used for the Liberium.gopen function, should be set in a <script> in your head tag or anywhere before Liberium.gopen is used.
 
 ### In the works
 
