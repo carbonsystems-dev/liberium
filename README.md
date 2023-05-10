@@ -21,7 +21,7 @@ Now, when the `Liberium.gopen` function is called, the user is redirected to htt
 
 ### Functions
 
-`Liberium.cloak('url)` - opens an about:blank tab using the specified url parameter
+`Liberium.cloak('url')` - opens an about:blank tab using the specified url parameter
 
 `Liberium.blob('url')` - opens a blob: url using the specified url parameter
 
