@@ -1,0 +1,10 @@
+# Replit nonsense
+.replit
+replit.nix
+
+.config/
+.upm
+.git/
+
+# For testing
+index.html
